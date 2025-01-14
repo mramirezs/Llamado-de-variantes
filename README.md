@@ -41,6 +41,7 @@ Se utiliza `bwa mem` para alinear las lecturas contra la referencia:
 
 **Comandos clave:**
 ```bash
+BAM=$SRR.bam
 R1=${SRR}_1.fastq
 R2=${SRR}_2.fastq
 TAG="@RG\tID:$SRR\tSM:$SRR\tLB:$SRR"
